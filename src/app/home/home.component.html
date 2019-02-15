@@ -1,0 +1,5 @@
+<div *ngFor="let car of cars | async">
+  <span>{{ car.model }}</span>
+  <img [src]='car.image'
+    alt='car.model'>
+</div>
