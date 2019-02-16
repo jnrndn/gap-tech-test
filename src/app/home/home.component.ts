@@ -1,7 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 import { Observable } from 'rxjs';
-import { CarInfo } from './car-card/car-info.interface';
-import { CarService } from './../service/car-service.service';
+import { CarInfo } from '../shared/interfaces/car-info.interface';
+import { CarService } from '../shared/services/car.service';
 
 @Component({
   selector: 'app-home',
@@ -15,8 +15,6 @@ export class HomeComponent implements OnInit {
 
   ngOnInit() {
     this.cars = this.carService.getCars();
-    console.log('cars', this.cars);
-
   }
 
 }
