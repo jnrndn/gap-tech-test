@@ -14,6 +14,9 @@ import { CarDetailComponent } from './car-detail/car-detail.component';
   imports: [
     CommonModule,
     MaterialModule
+  ],
+  entryComponents: [
+    CarDetailComponent,
   ]
 })
 export class HomeModule { }

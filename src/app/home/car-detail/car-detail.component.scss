@@ -1,0 +1,14 @@
+.dialog-container {
+  display: grid;
+}
+
+.car-image {
+  width: 260px;
+  @media (min-width: 576px) {
+    width: 450px;
+   }
+
+  @media (min-width: 768px) { 
+    width: 550px;
+   }
+}
