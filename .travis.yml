@@ -1,0 +1,24 @@
+language: node_js
+node_js:
+- node
+dist: trusty
+sudo: false
+branches:
+  only:
+  - master
+cache:
+  directories:
+  - node_modules
+install:
+- npm install -g yarn
+script:
+- yarn --no-progress
+- yarn lint
+- yarn build --prod --base-href ./ --no-progress
+deploy:
+  provider: firebase
+  skip_cleanup: true
+  token:
+    secure: mUB1ogpASKoHDUyNSn1GY7/DFNRbzE8Qu0fewyywsezTQpWHu9IzDmH/1Hw1NRbPeU49P3lSCeBqmagVbMftg++zjz1NmQKC+ZpNCnJEjmoFtjXt3t42phTUcW7FTxxF04NabkhOA+gAgIvlSTLwWrAqft8c087YmNRWj8qZma0GgcAmdDcAkMtnxOmK3cLtgOK5lUGRz/EQbS63lMWHsHI3aFS7n5lCTjA2zqe2sQPgJ8F2PeT7cqBSdRTvp+6Y4ycKuoB7yRism61XsQ/SuTIHtPFdCaoKjX0lgxxNWeMzk9bvIyM9/eiLpzYJZA85imHyT8+/Lv79FHSEi2mmefgNzy5o/9EsMfM9aQLuxSgmSQVGW8UiksIDNnCif6ZHBNCgY1Cqc2OSZMVmcqHuP6N9nqQbZGFLzu6ro0b6ZKeQXZ8/ixlvSNf2XKIhjZdB9qBnEMDZP6sBo8ug9hNZPCUmXYjIASmwl5q6p/+J+2w44x1XA1a4qh25tDG/DJkMWQnivrj+/I7AODgq/GQIhrt/+GFKgv62Xqe2Rah9/6w4x3si6T4Vc9g292YeSfvaDtMM/rCIKdMaUrrV4+1DkqLNJGPEdewoDYR6FpThb7ZCg7ry0hx8rk+Uq+dD+DeUw4ay9GTAa7C7ciFpQLbZn+ULNBIDQdp+EPMNCOAY4CQ=
+  on:
+    branch: master
