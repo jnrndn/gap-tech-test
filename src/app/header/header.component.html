@@ -3,4 +3,14 @@
     <img src='./assets/gap-vehicles-logo.png'
       alt='gap vehicles logo'>
   </a>
+  <div class="menu">
+    <button mat-raised-button
+      [matMenuTriggerFor]="menu">Menu</button>
+    <mat-menu #menu="matMenu">
+      <button mat-menu-item
+        (click)='goToHome()'>Home</button>
+      <button mat-menu-item
+        (click)='goToCompare()'>Compare</button>
+    </mat-menu>
+  </div>
 </nav>

@@ -4,6 +4,7 @@ import { HomeComponent } from './home.component';
 import { CarCardComponent } from './car-card/car-card.component';
 import { MaterialModule } from '../material/material.module';
 import { CarDetailComponent } from './car-detail/car-detail.component';
+import { FormsModule } from '@angular/forms';
 
 @NgModule({
   declarations: [
@@ -13,7 +14,8 @@ import { CarDetailComponent } from './car-detail/car-detail.component';
   ],
   imports: [
     CommonModule,
-    MaterialModule
+    MaterialModule,
+    FormsModule
   ],
   entryComponents: [
     CarDetailComponent,

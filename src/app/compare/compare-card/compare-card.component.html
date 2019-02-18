@@ -1,0 +1,17 @@
+<mat-card class="car-card">
+  <mat-card-header>
+    <div mat-card-avatar
+      class="car-header-image"></div>
+    <mat-card-title>{{ car.brand }}</mat-card-title>
+    <mat-card-subtitle>{{ car.model }} - {{ car.year }}</mat-card-subtitle>
+  </mat-card-header>
+  <img mat-card-image
+    [src]="car.image"
+    [alt]="car.model">
+  <mat-card-content>
+    <span>{{car.price | currency:'USD':'symbol':'1.0'}}</span>
+  </mat-card-content>
+  <mat-card-content>
+    <span>{{car.description}}</span>
+  </mat-card-content>
+</mat-card>

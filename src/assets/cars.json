@@ -1,5 +1,6 @@
 [
   {
+    "id": 0,
     "image": "./assets/sandero-rs.png",
     "model": "Sandero RS",
     "year": 2015,
@@ -8,6 +9,7 @@
     "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis blanditiis totam est sequi! Nesciunt aliquid quis error vel, eos eum. Sint temporibus impedit quia. Maiores velit beatae voluptatibus nesciunt numquam."
   },
   {
+    "id": 1,
     "image": "./assets/sandero-rs.png",
     "model": "Sandero Stepway",
     "year": 2019,
@@ -16,6 +18,7 @@
     "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis blanditiis totam est sequi! Nesciunt aliquid quis error vel, eos eum. Sint temporibus impedit quia. Maiores velit beatae voluptatibus nesciunt numquam."
   },
   {
+    "id": 2,
     "image": "./assets/sandero-rs.png",
     "model": "Sandero RS",
     "year": 2015,
@@ -24,6 +27,7 @@
     "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis blanditiis totam est sequi! Nesciunt aliquid quis error vel, eos eum. Sint temporibus impedit quia. Maiores velit beatae voluptatibus nesciunt numquam."
   },
   {
+    "id": 3,
     "image": "./assets/sandero-rs.png",
     "model": "Sandero RS",
     "year": 2015,
@@ -32,6 +36,7 @@
     "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis blanditiis totam est sequi! Nesciunt aliquid quis error vel, eos eum. Sint temporibus impedit quia. Maiores velit beatae voluptatibus nesciunt numquam."
   },
   {
+    "id": 4,
     "image": "./assets/sandero-rs.png",
     "model": "Sandero RS",
     "year": 2015,
@@ -40,6 +45,7 @@
     "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis blanditiis totam est sequi! Nesciunt aliquid quis error vel, eos eum. Sint temporibus impedit quia. Maiores velit beatae voluptatibus nesciunt numquam."
   },
   {
+    "id": 5,
     "image": "./assets/sandero-rs.png",
     "model": "Sandero RS",
     "year": 2015,
@@ -48,6 +54,7 @@
     "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis blanditiis totam est sequi! Nesciunt aliquid quis error vel, eos eum. Sint temporibus impedit quia. Maiores velit beatae voluptatibus nesciunt numquam."
   },
   {
+    "id": 6,
     "image": "./assets/sandero-rs.png",
     "model": "Sandero RS",
     "year": 2015,
@@ -56,6 +63,7 @@
     "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis blanditiis totam est sequi! Nesciunt aliquid quis error vel, eos eum. Sint temporibus impedit quia. Maiores velit beatae voluptatibus nesciunt numquam."
   },
   {
+    "id": 7,
     "image": "./assets/sandero-rs.png",
     "model": "Sandero RS",
     "year": 2015,
@@ -64,6 +72,7 @@
     "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis blanditiis totam est sequi! Nesciunt aliquid quis error vel, eos eum. Sint temporibus impedit quia. Maiores velit beatae voluptatibus nesciunt numquam."
   },
   {
+    "id": 8,
     "image": "./assets/sandero-rs.png",
     "model": "Sandero RS",
     "year": 2015,
@@ -72,6 +81,7 @@
     "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis blanditiis totam est sequi! Nesciunt aliquid quis error vel, eos eum. Sint temporibus impedit quia. Maiores velit beatae voluptatibus nesciunt numquam."
   },
   {
+    "id": 9,
     "image": "./assets/sandero-rs.png",
     "model": "Sandero RS",
     "year": 2015,
@@ -80,6 +90,7 @@
     "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis blanditiis totam est sequi! Nesciunt aliquid quis error vel, eos eum. Sint temporibus impedit quia. Maiores velit beatae voluptatibus nesciunt numquam."
   },
   {
+    "id": 10,
     "image": "./assets/sandero-rs.png",
     "model": "Sandero RS",
     "year": 2015,
@@ -88,6 +99,7 @@
     "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis blanditiis totam est sequi! Nesciunt aliquid quis error vel, eos eum. Sint temporibus impedit quia. Maiores velit beatae voluptatibus nesciunt numquam."
   },
   {
+    "id": 12,
     "image": "./assets/sandero-rs.png",
     "model": "Sandero RS",
     "year": 2015,
@@ -96,6 +108,7 @@
     "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis blanditiis totam est sequi! Nesciunt aliquid quis error vel, eos eum. Sint temporibus impedit quia. Maiores velit beatae voluptatibus nesciunt numquam."
   },
   {
+    "id": 13,
     "image": "./assets/sandero-rs.png",
     "model": "Sandero RS",
     "year": 2015,
@@ -104,11 +117,21 @@
     "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis blanditiis totam est sequi! Nesciunt aliquid quis error vel, eos eum. Sint temporibus impedit quia. Maiores velit beatae voluptatibus nesciunt numquam."
   },
   {
-    "image": "./assets/sandero-rs.png",
-    "model": "Sandero RS",
+    "id": 14,
+    "image": "./assets/tesla-model-x.png",
+    "model": "Tesla Model X",
     "year": 2015,
-    "brand": "Renault",
+    "brand": "Tesla",
     "price": 8000,
+    "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis blanditiis totam est sequi! Nesciunt aliquid quis error vel, eos eum. Sint temporibus impedit quia. Maiores velit beatae voluptatibus nesciunt numquam."
+  },
+  {
+    "id": 15,
+    "image": "./assets/tesla-model-x.png",
+    "model": "Tesla Model X",
+    "year": 2019,
+    "brand": "Tesla",
+    "price": 25000,
     "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis blanditiis totam est sequi! Nesciunt aliquid quis error vel, eos eum. Sint temporibus impedit quia. Maiores velit beatae voluptatibus nesciunt numquam."
   }
 ]

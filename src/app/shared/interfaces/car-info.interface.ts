@@ -1,5 +1,6 @@
 
 export interface CarInfo {
+  id: number;
   image: string;
   model: string;
   year: number;

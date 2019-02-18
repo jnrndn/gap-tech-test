@@ -17,4 +17,7 @@ export class HomeComponent implements OnInit {
     this.cars = this.carService.getCars();
   }
 
+  filter(event: any) {
+    console.log(event.target.value);
+  }
 }

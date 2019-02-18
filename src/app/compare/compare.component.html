@@ -1,0 +1,48 @@
+<h3 class="title">Choose the one that suits you best</h3>
+<div class="compare-container">
+  <div class="cars-dropdown">
+    <mat-form-field>
+      <mat-select placeholder="Pick a car from the list"
+        [(value)]="selected1">
+        <mat-option>None</mat-option>
+        <mat-option *ngFor="let car of cars | async"
+          [value]=car>{{ car.model }}</mat-option>
+      </mat-select>
+    </mat-form-field>
+    <app-compare-card *ngIf="!!selected1; else emptyTemplate"
+      [car]="selected1"></app-compare-card>
+    <ng-template #emptyTemplate>
+      <div class="empty"></div>
+    </ng-template>
+  </div>
+  <div class="cars-dropdown">
+    <mat-form-field>
+      <mat-select placeholder="Pick a car from the list"
+        [(value)]="selected2">
+        <mat-option>None</mat-option>
+        <mat-option *ngFor="let car of cars | async"
+          [value]=car>{{ car.model }}</mat-option>
+      </mat-select>
+    </mat-form-field>
+    <app-compare-card *ngIf="!!selected2; else emptyTemplate"
+      [car]="selected2"></app-compare-card>
+    <ng-template #emptyTemplate>
+      <div class="empty"></div>
+    </ng-template>
+  </div>
+  <div class="cars-dropdown">
+    <mat-form-field>
+      <mat-select placeholder="Pick a car from the list"
+        [(value)]="selected3">
+        <mat-option>None</mat-option>
+        <mat-option *ngFor="let car of cars | async"
+          [value]=car>{{ car.model }}</mat-option>
+      </mat-select>
+    </mat-form-field>
+    <app-compare-card *ngIf="!!selected3; else emptyTemplate"
+      [car]="selected3"></app-compare-card>
+    <ng-template #emptyTemplate>
+      <div class="empty"></div>
+    </ng-template>
+  </div>
+</div>

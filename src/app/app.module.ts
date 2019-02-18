@@ -8,6 +8,7 @@ import { HeaderComponent } from './header/header.component';
 import { HomeModule } from './home/home.module';
 import { HttpClientModule } from '@angular/common/http';
 import { MaterialModule } from './material/material.module';
+import { CompareModule } from './compare/compare.module';
 
 @NgModule({
   declarations: [
@@ -18,9 +19,10 @@ import { MaterialModule } from './material/material.module';
     BrowserModule,
     AppRoutingModule,
     BrowserAnimationsModule,
-    MaterialModule,
     HttpClientModule,
+    MaterialModule,
     HomeModule,
+    CompareModule,
   ],
   providers: [],
   bootstrap: [ AppComponent ]

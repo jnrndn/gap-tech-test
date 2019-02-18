@@ -1,0 +1,23 @@
+.compare-container{
+  display: grid;
+  grid-template-columns: 33% 33% 33%;
+  grid-template-rows: 25px auto
+}
+
+.cars-dropdown{
+  padding-left: 20px;
+}
+
+.title {
+  text-align: center;
+  padding: 20px;
+}
+
+.mat-form-field {
+  text-align: center;
+}
+
+.empty {
+  background-color: ghostwhite;
+  height: 500px;;
+}

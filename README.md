@@ -12,4 +12,4 @@ This project was generated with [Angular CLI](https://github.com/angular/angular
 
 Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `--prod` flag for a production build.
 
-**Note** This project includes automated deployment to *Firebase* hosting on branch master.
+**Note** This project includes automated deployment to *Firebase* hosting on branch master. look the site live [here](https://gap-tech-test.firebaseapp.com/)
