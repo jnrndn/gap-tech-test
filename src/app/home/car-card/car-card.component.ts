@@ -10,10 +10,9 @@ import { CarDetailComponent } from '../car-detail/car-detail.component';
   styleUrls: [ './car-card.component.scss' ]
 })
 export class CarCardComponent {
+  @Input() car: CarInfo;
 
   constructor(private details: MatDialog) { }
-
-  @Input() car: CarInfo;
 
   openDetails() {
     this.details.open(CarDetailComponent, {

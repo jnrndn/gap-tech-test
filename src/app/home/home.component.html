@@ -1,13 +1,19 @@
-<div class="car-filter">
-  <mat-form-field appearance="standard">
-    <mat-label>Filter by brand</mat-label>
-    <input matInput
-      placeholder="Brand"
-      (keyup)="filter($event)">
-  </mat-form-field>
+<div class="container">
+  <div class="car-filter">
+    <form>
+      <mat-form-field appearance="standard">
+        <mat-label>Filter by brand</mat-label>
+        <input matInput
+          placeholder="Brand">
+      </mat-form-field>
+    </form>
+  </div>
+  <div class="compare-button">
+    <button mat-raised-button>Compare</button>
+  </div>
 </div>
 <div class="card-container">
-  <div *ngFor="let car of cars | async"
+  <div *ngFor="let car of cars | async | sortByBrand"
     class="card">
     <app-car-card [car]="car"></app-car-card>
   </div>

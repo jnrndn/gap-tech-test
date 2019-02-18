@@ -1,6 +1,6 @@
 import { CommonModule } from '@angular/common';
 import { NgModule } from '@angular/core';
-import { MatButtonModule, MatCardModule, MatDialogModule, MatInputModule, MatMenuModule, MatSelectModule } from '@angular/material';
+import { MatButtonModule, MatCardModule, MatCheckboxModule, MatDialogModule, MatInputModule, MatMenuModule, MatSelectModule } from '@angular/material';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 
 @NgModule({
@@ -14,6 +14,7 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
     MatInputModule,
     MatMenuModule,
     MatSelectModule,
+    MatCheckboxModule,
   ],
   exports: [
     MatCardModule,
@@ -22,6 +23,7 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
     MatInputModule,
     MatMenuModule,
     MatSelectModule,
+    MatCheckboxModule,
   ]
 })
 export class MaterialModule { }

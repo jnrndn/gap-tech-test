@@ -1,3 +1,6 @@
+.container {
+  display: flex;
+}
 .card-container {
   display: flex;
   flex-wrap: wrap;
@@ -10,4 +13,9 @@
 
 .car-filter {
   padding-left: 20px;
+  margin: auto;
+}
+
+.compare-button {
+  margin: auto;
 }

@@ -1,15 +1,19 @@
-<mat-card class="car-card"
-  (click)="openDetails()">
-  <mat-card-header>
-    <div mat-card-avatar
-      class="car-header-image"></div>
-    <mat-card-title>{{ car.brand }}</mat-card-title>
-    <mat-card-subtitle>{{ car.model }} - {{ car.year }}</mat-card-subtitle>
-  </mat-card-header>
-  <img mat-card-image
-    [src]="car.image"
-    [alt]="car.model">
+<mat-card class="car-card">
+  <div (click)="openDetails()">
+    <mat-card-header>
+      <div mat-card-avatar
+        class="car-header-image"></div>
+      <mat-card-title>{{ car.brand }}</mat-card-title>
+      <mat-card-subtitle>{{ car.model }} - {{ car.year }}</mat-card-subtitle>
+    </mat-card-header>
+    <img mat-card-image
+      [src]="car.image"
+      [alt]="car.model">
+    <mat-card-content>
+      <span>{{car.price | currency:'USD':'symbol':'1.0'}}</span>
+    </mat-card-content>
+  </div>
   <mat-card-content>
-    <span>{{car.price | currency:'USD':'symbol':'1.0'}}</span>
+    <mat-checkbox [id]="car.id">Compare</mat-checkbox>
   </mat-card-content>
 </mat-card>

@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { FormBuilder, FormControl, FormGroup } from '@angular/forms';
 import { Observable } from 'rxjs';
 import { CarInfo } from '../shared/interfaces/car-info.interface';
 import { CarService } from '../shared/services/car.service';
@@ -9,15 +10,12 @@ import { CarService } from '../shared/services/car.service';
   styleUrls: [ './home.component.scss' ]
 })
 export class HomeComponent implements OnInit {
+
   cars: Observable<CarInfo>;
 
-  constructor(private carService: CarService) { }
+  constructor(private carService: CarService, private fb: FormBuilder) { }
 
   ngOnInit() {
     this.cars = this.carService.getCars();
-  }
-
-  filter(event: any) {
-    console.log(event.target.value);
   }
 }
