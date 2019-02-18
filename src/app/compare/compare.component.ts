@@ -13,7 +13,7 @@ export class CompareComponent implements OnInit {
   selected1: CarInfo;
   selected2: CarInfo;
   selected3: CarInfo;
-  cars: Observable<CarInfo[]>;
+  cars: Observable<CarInfo>;
   constructor(private carService: CarService) { }
 
   ngOnInit() {
