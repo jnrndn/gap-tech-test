@@ -1,9 +1,10 @@
 <div class="container">
   <div class="car-filter">
-    <form>
+    <form [formGroup]="filterForm">
       <mat-form-field appearance="standard">
         <mat-label>Filter by brand</mat-label>
         <input matInput
+          formControlName="brand"
           placeholder="Brand">
       </mat-form-field>
     </form>
@@ -12,9 +13,17 @@
     <button mat-raised-button>Compare</button>
   </div>
 </div>
-<div class="card-container">
+<div *ngIf="!(filteredCars && filteredCars.length > 0); else filteredTemplate"
+  class="card-container">
   <div *ngFor="let car of cars | async | sortByBrand"
     class="card">
     <app-car-card [car]="car"></app-car-card>
   </div>
 </div>
+<ng-template #filteredTemplate
+  class="card-container">
+  <div *ngFor="let car of filteredCars"
+    class="card">
+    <app-car-card [car]="car"></app-car-card>
+  </div>
+</ng-template>

@@ -2,7 +2,8 @@ import { Injectable } from '@angular/core';
 import { HttpClient } from '@angular/common/http';
 import { CarInfo } from '../interfaces/car-info.interface';
 import { Observable } from 'rxjs';
-import { filter } from 'rxjs/operators';
+import { filter, map, mergeMap } from 'rxjs/operators';
+import { isEmpty } from 'lodash';
 
 @Injectable({
   providedIn: 'root'
@@ -17,8 +18,20 @@ export class CarService {
   }
 
   getCarById(id: number) {
-    return this.http.get<CarInfo>(this.carsEnpoint).pipe(
-      filter((car: CarInfo) => car.id === id),
+    return this.http.get<CarInfo[]>(this.carsEnpoint).pipe(
+      mergeMap((cars: CarInfo[]) => cars),
+      filter((car: CarInfo) => {
+        return car.id === id;
+      })
+    );
+  }
+
+  getCarByBrand(brand: string) {
+    return this.http.get<CarInfo[]>(this.carsEnpoint).pipe(
+      mergeMap((cars: CarInfo[]) => cars),
+      filter((car: CarInfo) => {
+        return car.brand.toLowerCase() === brand.toLowerCase();
+      })
     );
   }
 }

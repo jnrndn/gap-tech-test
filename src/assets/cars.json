@@ -1,6 +1,6 @@
 [
   {
-    "id": 14,
+    "id": 0,
     "image": "./assets/tesla-model-x.png",
     "model": "Tesla Model X",
     "year": 2015,
@@ -9,18 +9,9 @@
     "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis blanditiis totam est sequi! Nesciunt aliquid quis error vel, eos eum. Sint temporibus impedit quia. Maiores velit beatae voluptatibus nesciunt numquam."
   },
   {
-    "id": 0,
-    "image": "./assets/sandero-rs.png",
-    "model": "Sandero RS",
-    "year": 2015,
-    "brand": "Renault",
-    "price": 8000,
-    "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis blanditiis totam est sequi! Nesciunt aliquid quis error vel, eos eum. Sint temporibus impedit quia. Maiores velit beatae voluptatibus nesciunt numquam."
-  },
-  {
     "id": 1,
     "image": "./assets/sandero-rs.png",
-    "model": "Sandero Stepway",
+    "model": "Sandero RS",
     "year": 2019,
     "brand": "Renault",
     "price": 12000,
@@ -28,24 +19,33 @@
   },
   {
     "id": 2,
-    "image": "./assets/sandero-rs.png",
-    "model": "Sandero RS",
-    "year": 2015,
-    "brand": "Renault",
-    "price": 8000,
+    "image": "./assets/toyota-corolla.png",
+    "model": "Corolla",
+    "year": 2019,
+    "brand": "Toyota",
+    "price": 35000,
     "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis blanditiis totam est sequi! Nesciunt aliquid quis error vel, eos eum. Sint temporibus impedit quia. Maiores velit beatae voluptatibus nesciunt numquam."
   },
   {
     "id": 3,
-    "image": "./assets/sandero-rs.png",
-    "model": "Sandero RS",
-    "year": 2015,
-    "brand": "Renault",
-    "price": 8000,
+    "image": "./assets/MINI-JCW.png",
+    "model": "Jhon Cooper Works",
+    "year": 2019,
+    "brand": "Mini Cooper",
+    "price": 45000,
     "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis blanditiis totam est sequi! Nesciunt aliquid quis error vel, eos eum. Sint temporibus impedit quia. Maiores velit beatae voluptatibus nesciunt numquam."
   },
   {
     "id": 4,
+    "image": "./assets/sandero-stepway.png",
+    "model": "Sandero Stepway",
+    "year": 2017,
+    "brand": "Renault",
+    "price": 11000,
+    "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis blanditiis totam est sequi! Nesciunt aliquid quis error vel, eos eum. Sint temporibus impedit quia. Maiores velit beatae voluptatibus nesciunt numquam."
+  },
+  {
+    "id": 5,
     "image": "./assets/corvette-stingray.png",
     "model": "Corvette Stingray",
     "year": 2017,
@@ -54,79 +54,43 @@
     "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis blanditiis totam est sequi! Nesciunt aliquid quis error vel, eos eum. Sint temporibus impedit quia. Maiores velit beatae voluptatibus nesciunt numquam."
   },
   {
-    "id": 5,
-    "image": "./assets/sandero-rs.png",
-    "model": "Sandero RS",
-    "year": 2015,
-    "brand": "Renault",
-    "price": 8000,
-    "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis blanditiis totam est sequi! Nesciunt aliquid quis error vel, eos eum. Sint temporibus impedit quia. Maiores velit beatae voluptatibus nesciunt numquam."
-  },
-  {
     "id": 6,
-    "image": "./assets/sandero-rs.png",
-    "model": "Sandero RS",
-    "year": 2015,
-    "brand": "Renault",
-    "price": 8000,
+    "image": "./assets/bmw-m2.png",
+    "model": "M2",
+    "year": 2018,
+    "brand": "BMW",
+    "price": 70000,
     "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis blanditiis totam est sequi! Nesciunt aliquid quis error vel, eos eum. Sint temporibus impedit quia. Maiores velit beatae voluptatibus nesciunt numquam."
   },
   {
     "id": 7,
-    "image": "./assets/sandero-rs.png",
-    "model": "Sandero RS",
-    "year": 2015,
-    "brand": "Renault",
-    "price": 8000,
+    "image": "./assets/chevrolet-tracker.png",
+    "model": "Tracker",
+    "year": 2018,
+    "brand": "Chevrolet",
+    "price": 17500,
     "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis blanditiis totam est sequi! Nesciunt aliquid quis error vel, eos eum. Sint temporibus impedit quia. Maiores velit beatae voluptatibus nesciunt numquam."
   },
   {
     "id": 8,
-    "image": "./assets/sandero-rs.png",
-    "model": "Sandero RS",
-    "year": 2015,
-    "brand": "Renault",
-    "price": 8000,
+    "image": "./assets/maserati-ghibli.png",
+    "model": "Ghibli",
+    "year": 2019,
+    "brand": "Maserati",
+    "price": 250000,
     "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis blanditiis totam est sequi! Nesciunt aliquid quis error vel, eos eum. Sint temporibus impedit quia. Maiores velit beatae voluptatibus nesciunt numquam."
   },
   {
     "id": 9,
-    "image": "./assets/sandero-rs.png",
-    "model": "Sandero RS",
+    "image": "./assets/nissan-kicks.png",
+    "model": "Kicks",
     "year": 2015,
-    "brand": "Renault",
-    "price": 8000,
+    "brand": "Nissan",
+    "price": 22000,
     "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis blanditiis totam est sequi! Nesciunt aliquid quis error vel, eos eum. Sint temporibus impedit quia. Maiores velit beatae voluptatibus nesciunt numquam."
   },
   {
     "id": 10,
-    "image": "./assets/sandero-rs.png",
-    "model": "Sandero RS",
-    "year": 2015,
-    "brand": "Renault",
-    "price": 8000,
-    "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis blanditiis totam est sequi! Nesciunt aliquid quis error vel, eos eum. Sint temporibus impedit quia. Maiores velit beatae voluptatibus nesciunt numquam."
-  },
-  {
-    "id": 12,
-    "image": "./assets/sandero-rs.png",
-    "model": "Sandero RS",
-    "year": 2015,
-    "brand": "Renault",
-    "price": 8000,
-    "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis blanditiis totam est sequi! Nesciunt aliquid quis error vel, eos eum. Sint temporibus impedit quia. Maiores velit beatae voluptatibus nesciunt numquam."
-  },
-  {
-    "id": 13,
-    "image": "./assets/sandero-rs.png",
-    "model": "Sandero RS",
-    "year": 2015,
-    "brand": "Renault",
-    "price": 8000,
-    "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis blanditiis totam est sequi! Nesciunt aliquid quis error vel, eos eum. Sint temporibus impedit quia. Maiores velit beatae voluptatibus nesciunt numquam."
-  },
-  {
-    "id": 15,
     "image": "./assets/tesla-model-x.png",
     "model": "Tesla Model X",
     "year": 2019,
